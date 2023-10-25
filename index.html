@@ -1,97 +1,148 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>les héros de l'attaque banane</title>
     <link rel="stylesheet" href="styles/styles.css">
 </head>
+
 <body>
     <!--1er partie du site web.-->
     <div class="haut">
+        <!--le header en entier-->
         <header>
             <div class="lesheros">
                 <div class="imgheros">
                     <img src="img/headerbanane.jpg" alt="image_des_héros_de_la_banane">
                 </div>
-                <div class="herobanane"><h1>Les héros de la banane</h1></div>
+                <div class="herobanane">
+                    <h1>Les héros de la banane</h1>
+                </div>
             </div>
             <div class="barrerecherche">
                 <input class="input" type="text" placeholder="saisissez un nom">
-                <div class="valider"><b>Valider</b></div>
+                <div id="valider" class="valider" onclick="recherche()"><b>Valider</b></div>
             </div>
         </header>
 
         <div class="contourhaut">
             <div class="droitehaut">
-        <div class="title">
-            <h2>Leur histoire :</h2>
-        </div>
-        <div class="histoire">
-           <p> Il était une fois, à Mulhouse, une journée en apparence normale à l'IUT. Cependant, tout bascula lorsqu'une banane gigantesque apparut au-dessus du bâtiment, menaçant de tout écraser. Martin, Kevin et Jules, intrigués par cette étrangeté, décidèrent de mener l'enquête.</p>
+                <div class="title">
+                    <h2>Leur histoire :</h2>
+                </div>
+                <div class="histoire">
+                    <p> Il était une fois, à Mulhouse, une journée en apparence normale à l'IUT. Cependant, tout
+                        bascula lorsqu'une banane gigantesque apparut au-dessus du bâtiment, menaçant de tout écraser.
+                        Martin, Kevin et Jules, intrigués par cette étrangeté, décidèrent de mener l'enquête.</p>
 
-<p>Martin, avec son esprit analytique, découvrit rapidement que la banane provenais de l'espace. Après avoir consulté divers experts, ils apprirent qu'il existait un remède caché au cœur d'une jungle mystérieuse, capable de rétrécir la banane à sa taille normale.</p>
-<p>Les trois amis, armés de courage et de détermination, entreprirent un voyage épique vers une jungle lointaine et inexplorée. Ils traversèrent des lianes, bravèrent des animaux exotiques et résolurent des énigmes étranges pour atteindre le cœur de la jungle, où, selon les rumeurs, se trouvait le remède tant recherché.</p>
+                    <p>Martin, avec son esprit analytique, découvrit rapidement que la banane provenais de l'espace.
+                        Après avoir consulté divers experts, ils apprirent qu'il existait un remède caché au cœur d'une
+                        jungle mystérieuse, capable de rétrécir la banane à sa taille normale.</p>
+                    <p>Les trois amis, armés de courage et de détermination, entreprirent un voyage épique vers une
+                        jungle lointaine et inexplorée. Ils traversèrent des lianes, bravèrent des animaux exotiques et
+                        résolurent des énigmes étranges pour atteindre le cœur de la jungle, où, selon les rumeurs, se
+                        trouvait le remède tant recherché.</p>
 
-Guidés par Martin, ils découvrirent un ancien temple caché au milieu de la végétation luxuriante. À l'intérieur, des inscriptions anciennes indiquaient la recette du remède. Cependant, pour l'obtenir, ils devaient résoudre une série de défis intellectuels et artistiques.
+                    Guidés par Martin, ils découvrirent un ancien temple caché au milieu de la végétation luxuriante. À
+                    l'intérieur, des inscriptions anciennes indiquaient la recette du remède. Cependant, pour l'obtenir,
+                    ils devaient résoudre une série de défis intellectuels et artistiques.
+                </div>
+            </div>
+
+            <div class="droitehaut">
+                <div class="img1">
+                    <img class="tkt" src="img/la_jungle.jpg" alt="la_jungle">
+                </div>
+                <div class="img1">
+                    <img class="tkt" src="img/jungle.jpg" alt="jungle">
+                </div>
+            </div>
         </div>
-    </div>
-    
-<div class="droitehaut">
-<div class="img1">
-    <img class="tkt" src="img/la_jungle.jpg" alt="la_jungle">
-</div>
-<div class="img1">
-    <img class="tkt" src="img/jungle.jpg" alt="jungle">
-</div>
-</div>
-</div>
     </div>
     <!--2ème partie du site web.-->
     <div class="millieu">
         <div class="title">
             <h2>La victoire</h2>
         </div>
-            <div class="mid">
-                <div class="mid1">
-                    <div class="soustitre">
-                        <h3>Les épreuves</h3>
-                    </div>
-                    <div class="letxt">
-                        <p>Kevin, avec sa force physique et son agilité, surmonta les obstacles physiques,</p><p> tandis que Jules ajouta une touche artistique en interprétant des fresques murales mystérieuses.</p><p>Martin utilisa son esprit logique pour déchiffrer les énigmes complexes.</p>
-                    </div>
+        <div class="mid">
+            <div class="mid1">
+                <div class="soustitre">
+                    <h3>Les épreuves</h3>
                 </div>
-                <div class="mid1">
-                    <div class="soustitre">
-                        <h3>Le remède</h3>
-                    </div>
+                <div class="essaieimage">
                     <div class="letxt">
-                        <p>Une fois les défis relevés, les amis obtinrent le remède légendaire.</p><p> Ils retournèrent rapidement à Mulhouse, où ils appliquèrent le remède sur la banane géante.</p><p> Miraculeusement, elle commença à rétrécir jusqu'à retrouver sa taille normale.</p>
-                    </div>
-                </div>
-                <div class="mid1">
-                    <div class="soustitre">
-                        <h3>dénouement</h3>
-                    </div>
-                    <div class="letxt">
-                        Mais pour éviter tout risque futur, ils décidèrent de sceller la banane dans un arbre magique au cœur de la jungle, transformant ainsi le problème en une attraction mystique et inoffensive.
+                        <p>Kevin, avec sa force physique et son agilité, surmonta les obstacles physiques,</p>
+                        <p> tandis que Jules ajouta une touche artistique en interprétant des fresques murales
+                            mystérieuses.</p>
+                        <p>Martin utilisa son esprit logique pour déchiffrer les énigmes complexes.</p>
+                        <div class="img2"><img src="img/j'entend.jpg" alt="les_epreuves"></div>
                     </div>
                 </div>
             </div>
-        
+            <div class="mid3">
+                <img src="img/bananesvg.png" alt="svgbanane">
+            </div>
+            <div class="mid2">
+                <div class="soustitre">
+                    <h3>Le remède</h3>
+                </div>
+                <div class="letxt">
+                    <p>Une fois les défis relevés, les amis obtinrent les ingrédients du remède légendaire.</p>
+                    <p>Le remède mystérieux était une concoction élaborée à partir d'ingrédients rares et exotiques que
+                        l'on ne trouvait que dans la profondeur de la jungle. Voici la composition du remède qui devait
+                        rétrécir la banane géante :</p>
+
+                    <p>Fleur d'Éclat Lunaire : Une fleur rare qui ne s'épanouit que la nuit sous la lumière de la lune.
+                        Ses pétales argentés étaient connus pour avoir des propriétés magiques de réduction.</p>
+
+                    <p>Sève d'Arbre Émeraude : Extraite d'un arbre centenaire au feuillage émeraude, cette sève avait
+                        des propriétés mystiques capables de modifier la taille des objets.</p>
+
+                    <p>Baie de l'Ombre Mystique : Une petite baie d'un arbuste introuvable ailleurs qu'au cœur de la
+                        jungle. Ses propriétés étaient essentielles pour stabiliser les effets des autres ingrédients.
+                    </p>
+
+                    <p>Poussière de Rayon de Lueur : Récoltée à partir d'insectes bioluminescents spécifiques à la
+                        région, cette poussière ajoutait une lueur éthérée au remède, signe de son pouvoir actif.</p>
+
+                    <p>Feuille d'Équilibre Temporel : Une feuille rare provenant d'un arbre ancien, elle était réputée
+                        pour sa capacité à harmoniser le temps, nécessaire pour garantir une réduction progressive et
+                        sûre.</p>
+
+                    <p>Pour préparer le remède, les amis devaient suivre des rituels précis au temple de la jungle.
+                        Chaque ingrédient devait être combiné avec soin.</p>
+                    <p> Ils retournèrent rapidement à Mulhouse, où ils appliquèrent le remède sur la banane géante.</p>
+                    <p> Miraculeusement, elle commença à rétrécir jusqu'à retrouver sa taille normale.</p>
+                    <div class="img3"><img src="img/banane.jpg" alt="les_epreuves"></div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
 
 
     </div>
     <!--3ème partie du site web.-->
     <div class="bas">
-        <div class="textefin">
-            test
+            <div class="histoire2">
+                <p>pour éviter tout risque futur, ils décidèrent de sceller la banane dans un arbre magique au cœur de la jungle, transformant ainsi le problème en une attraction mystique et inoffensive.</p>
+
+<p>Ainsi, grâce à l'ingéniosité de Martin, la force de Kevin et la créativité de Jules, l'IUT de Mulhouse fut sauvé, et la banane géante devint une légende locale. Les trois amis rentrèrent chez eux, fiers de leur aventure, avec des souvenirs qui les uniraient à jamais.</p>
+            </div>
+            <div class="img56">
+                <div><img class="img5" src="img/arbre_banane.png" alt="banane_dans_l'arbre"></div>
+                <div><img class="img6" src="img/headerbanane.jpg" alt="image_des_héros_de_la_banane"></div>
+            </div>
         </div>
-
-
         <footer>
             <div class="contactes">
-                <p>Nous contacter : </p><p>-jules : jule@herobanane.fr</p><p>-kevin : kevin@herobanane.fr</p><p>Martin : martin@herobanane.fr</p>
+                <p>Nous contacter : </p>
+                <p>-jules : jule@herobanane.fr</p>
+                <p>-kevin : kevin@herobanane.fr</p>
+                <p>Martin : martin@herobanane.fr</p>
             </div>
             <div class="links">
                 <div class="reseaux">instagram</div>
@@ -99,13 +150,9 @@ Guidés par Martin, ils découvrirent un ancien temple caché au milieu de la v�
                 <div class="reseaux">twitch</div>
             </div>
         </footer>
-    </div>
+        <script src="js/script.js"></script>
 
-
-
-
-
-
-
+        <!--alors, je vous l'accorde il n'y a pas beaucoup de commentaires mais je peux tout expliquer...-->
 </body>
+
 </html>
