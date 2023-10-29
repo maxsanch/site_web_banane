@@ -1,13 +1,13 @@
 /**haut de la page**/
 .haut{
-    background: linear-gradient(#191716, #494945);
+    background: linear-gradient(#9f9f9f, #f5f5eb);
     min-height: 100vh;
     gap:20px;
 }
 body{
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
-   background: #494945;
+   background: #f5f5eb;
 }
 img{
     width:100%;
@@ -22,12 +22,12 @@ img{
 }
 .millieu{
     min-height: 100vh;
-    background: #494945;
+    background: #f5f5eb;
     gap: 20px;
 }
 .bas{
     min-height: 50vh;
-    background: #494945;
+    background: #f5f5eb;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -51,7 +51,7 @@ header{
     border-radius: 20px;
 }
 .herobanane{
-    color: #E6AF2E;
+    color: #3d348b;
 }
 .input{
     padding: 10px;
@@ -61,8 +61,8 @@ header{
     text-align: center;
 }
 .title{
-    color: #fff;
-    background: #191716;
+    color: #000000;
+    background: #9f9f9f;
     padding: 10px;
     margin-right: 20px;
     margin-top: 20px;
@@ -71,8 +71,8 @@ header{
     border-radius: 0 0 20px 0;
 }
 .histoire{
-    color: #fff;
-    background: #191716;
+    color: #000000;
+    background: #9f9f9f;
     padding: 20px;
     margin-right: 20px;
     margin-top: 20px;
@@ -88,14 +88,14 @@ header{
 .img1{
     width: 600px;
     margin: 20px;
-    border: #191716;
+    border: #3c3c3c;
     border-radius: 20px;
 }
 .droitehaut{
     gap: 10px;
 }
 .tkt{
-    border: solid 4px #191716;
+    border: solid 4px #565656;
     border-radius: 20px;
 }
 footer{
@@ -113,7 +113,7 @@ footer{
     min-height: 90vh;
 }
 .links{
-    color: #fff;
+    color: #000000;
     display: flex;
     gap: 20px;
     font-size: 20px;
@@ -126,9 +126,9 @@ footer{
     justify-content: center;
 }
 .mid1{
-    color: white;
+    color: rgb(0, 0, 0);
     margin: 20px;
-    background: #191716;
+    background: #9f9f9f;
     padding: 20px;
     border-radius: 15px;
     box-shadow: 0px 5px rgba(0, 0, 0, 26);
@@ -144,9 +144,9 @@ footer{
     flex-direction: column;
 }
 .mid2{
-    color: white;
+    color: rgb(0, 0, 0);
     margin: 20px;
-    background: #191716;
+    background: #9f9f9f;
     padding: 20px;
     border-radius: 15px;
     box-shadow: 0px 5px rgba(0, 0, 0, 26);
@@ -160,9 +160,9 @@ footer{
     width: 500px;
 }
 .mid4{
-    color: white;
+    color: rgb(0, 0, 0);
     margin: 20px;
-    background: #191716;
+    background: #9f9f9f;
     padding: 20px;
     border-radius: 15px;
     box-shadow: 0px 5px rgba(0, 0, 0, 26);
@@ -170,8 +170,8 @@ footer{
     font-size: 12px;
 }
 .histoire2{
-    color: #fff;
-    background: #191716;
+    color: #000000;
+    background: #9f9f9f;
     padding: 20px;
     margin-bottom: 20px;
     box-shadow: 0px 5px rgba(0, 0, 0, 26);
@@ -188,12 +188,12 @@ footer{
 }
 .img5{
     width: 400px;
-    border: solid #191716;
+    border: solid #3c3c3c;
     border-radius: 20px;
 }
 .img6{
     width: 750px;
-    border: solid #191716;
+    border: solid #3c3c3c;
     border-radius: 20px;
 }
 .erreur{

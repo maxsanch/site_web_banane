@@ -7,3 +7,15 @@ function recherche(){
         window.location = 'pages/' +document.querySelector(".input").value + '.html';
     }
 }
+function changer(){
+    let theme=document.querySelector("#theme").innerText
+
+    if(theme=="claire"){
+        document.querySelector("#theme").innerText="sombre"
+        document.querySelector("link").setAttribute('href', 'styles/stylesb.css')
+    }
+    else{
+        document.querySelector("#theme").innerText="claire"
+        document.querySelector("link").setAttribute('href', 'styles/styles.css')
+    }
+}
