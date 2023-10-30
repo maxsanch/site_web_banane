@@ -4,7 +4,13 @@ function recherche(){
         document.querySelector(".input").classList.add("erreur")
     }
     else{
-        window.location = 'pages/' +document.querySelector(".input").value + '.html';
+        if(nom=="index"){
+            window.location = document.querySelector(".input").value + '.html';
+        }
+        else{
+            window.location = 'pages/' +document.querySelector(".input").value + '.html';
+        }
+       
     }
 }
 function changer(){

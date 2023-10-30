@@ -1,0 +1,65 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    background-image: url(../img/fondimg.jpg);
+    background-size: 100%;
+}
+/**header du formulaire**/
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.input{
+    border: solid 4px #3d348b;
+    padding-inline: 50px;
+    margin-right: 30px;
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+}
+.valider{
+    margin-right: 20px;
+    font-size: large;
+    color: #E6AF2E;
+    background: #3d348b;
+    padding: 10px;
+    padding-inline: 50px;
+    border-radius: 20px;
+}
+.flex2{
+    display: flex;
+    align-items: center;
+}
+.form{
+    margin-inline: 20px;
+    color: #E6AF2E;
+}
+img{
+    width: 100%;
+}
+.centre{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.centrer{
+    color: white;
+    border: solid 2px white;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+.droite{
+    display: flex;
+    gap: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+input{
+    margin-left: auto;
+}
