@@ -25,3 +25,4 @@ function changer(){
         document.querySelector("link").setAttribute('href', 'styles/styles.css')
     }
 }
+/*dzkjdhs */
