@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../styles/stylesf.css">
+</head>
+
+<body>
+    <!--header du formulaire-->
+    <header>
+        <div class="flex">
+            <div class="form">
+                <h1>formulaire</h1>
+            </div>
+        </div>
+        <div class="flex">
+            <div class="flex2">
+                <div class="valider" onclick="recherche()"><b>Valider</b></div>
+                <input type="text" class="input" placeholder="saisissez un nom">
+            </div>
+        </div>
+    </header>
+    <div class="centre">
+        <div class="centrer">
+            <form action="#">
+                <div class="nom">
+                    <div class="infos">
+                        Nom
+                    </div>
+                    <div class="infos">
+                        <input name="Nom" type="text" placeholder="entrez votre nom" required>
+                    </div>
+                </div>
+                <div class="nom">
+                    <div class="infos">
+                        Prénom
+                    </div>
+                    <div class="infos">
+                        <input name="Prénom" type="text" placeholder="entrez votre Prénom" required>
+                    </div>
+                </div>
+                <div class="nom">
+                    <div class="infos">
+                        Date de naissance
+                    </div>
+                    <div class="infos">
+                        <input type="date" name="anniversaire" required>
+                    </div>
+                    <hr>
+                    <div class="nom">
+                        <div class="infos">
+                            d'ou venez vous?
+                        </div>
+                        <div class="infos">
+                            <div class="azyjsp">
+                                <div class="ouais">France</div><input type="radio" name="pays" required>
+                            </div>
+                            <div class="azyjsp">
+                                <div class="ouais">Belgique</div><input type="radio" name="pays" required>
+                            </div>
+                            <div class="azyjsp">
+                               <div class="ouais">lune</div> <input type="radio" name="pays" required>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="nom">
+                        <div class="infos">
+                            d'ou venez vous?
+                        </div>
+                        <div class="infos">
+                            <div class="azyjsp">
+                                <div class="ouais">chien</div><input type="checkbox" name="pets">
+                            </div>
+                            <div class="azyjsp">
+                                <div class="ouais">chat</div><input type="checkbox" name="pets">
+                            </div>
+                            <div class="azyjsp">
+                               <div class="ouais">dragon</div> <input type="checkbox" name="pets">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bouton">
+                        <input class="send" type="submit" value="Envoyer">
+                    </div>
+            </form>
+        </div>
+    </div>
+    </div>
+
+    </div>
+    <script src="../js/script.js"></script>
+</body>
+
+</html>

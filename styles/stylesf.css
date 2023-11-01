@@ -1,7 +1,7 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
-    background-image: url(../img/fondimg.jpg);
+    background-image: url(../img/papier-peint-paysage-onirique-surrealiste-dans-tons-violets.jpg);
     background-size: 100%;
 }
 /**header du formulaire**/
@@ -11,7 +11,7 @@ header{
     align-items: center;
 }
 .input{
-    border: solid 4px #3d348b;
+    border: solid 4px #6f0166;
     padding-inline: 50px;
     margin-right: 30px;
     border-radius: 20px;
@@ -21,8 +21,8 @@ header{
 .valider{
     margin-right: 20px;
     font-size: large;
-    color: #E6AF2E;
-    background: #3d348b;
+    color: #000000;
+    background: #ff84f1bd;
     padding: 10px;
     padding-inline: 50px;
     border-radius: 20px;
@@ -33,7 +33,7 @@ header{
 }
 .form{
     margin-inline: 20px;
-    color: #E6AF2E;
+    color: #1500ff;
 }
 img{
     width: 100%;
@@ -45,7 +45,7 @@ img{
     justify-content: center;
 }
 .centrer{
-    color: white;
+    color: rgb(255, 255, 255);
     border: solid 2px white;
     border-radius: 20px;
     padding: 20px;
@@ -62,4 +62,13 @@ img{
 }
 input{
     margin-left: auto;
+}
+.nom{
+}
+.send{
+    padding: 10px;
+    padding-inline: 30px;
+    background: #f79fd5;
+    border: none;
+    border-radius: 10px;
 }
