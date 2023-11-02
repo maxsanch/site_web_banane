@@ -116,3 +116,29 @@ input{
     background:  rgb(0, 7, 108);
     border-radius: 20px;
 }
+/*classe des menus*/
+
+.réseaux{
+    width: 50px;
+}
+.deroulant{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    background: rgb(35, 0, 0);
+}
+.spacel{
+    width: 300px;
+}
+.space{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.destination{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}

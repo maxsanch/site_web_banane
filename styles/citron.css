@@ -1,0 +1,93 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(191, 191, 191);
+    margin: 0px;
+}
+img{
+    width: 100%;
+}
+header{
+    background: rgb(93, 190, 93);
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    box-shadow: 0px 5px 0px rgba(0, 0, 0, 26);
+    align-items: center;
+    padding: 20px;
+}
+.grandediv{
+    display: flex;
+    gap: 30px;
+}
+.centrage{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.centrer{
+    display: flex;
+    align-items: center;
+    margin: 50px;
+    gap: 40px;
+}
+.image{
+    width: 700px;
+}
+.det{
+    margin-top: 30px;
+}
+.gras{
+    margin: 2px;
+}
+h1{
+    margin: 0px;
+}
+.gauche2{
+    color: red;
+    font-size: 30px;
+}
+.letour{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    margin: 10px;
+    margin-bottom: 40px;
+}
+.cote2{
+    width: 340px;
+    background: rgb(255, 255, 255);
+}
+.text{
+    margin: 10px;
+    font-size: 20px;
+}
+.payement{
+
+}
+.haut{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px black;
+    margin: 10px;
+}
+input{
+    text-decoration: none;
+    padding: 15px;
+    padding-inline: 40px;
+    border: none;
+}
+.math{
+    font-size: 30px;
+    padding: 10px;
+}
+.bas{
+    font-size: 20px;
+    color: white;
+    background: rgb(56, 56, 147);
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    margin: 10px;
+}

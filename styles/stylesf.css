@@ -60,9 +60,6 @@ img{
     margin-top: 20px;
     margin-bottom: 20px;
 }
-input{
-    margin-left: auto;
-}
 .nom{
 }
 .send{
@@ -71,4 +68,38 @@ input{
     background: #f79fd5;
     border: none;
     border-radius: 10px;
+    display: flex;
+    justify-content: start;
+}
+.nom{
+    display: flex;
+    gap: 100px;
+    margin: 10px;
+}
+.infos{
+    margin-left: auto;
+}
+.jsp{
+    padding: 10px;
+    padding-inline: 20px;
+    text-align: center;
+    border: solid 1px white;
+    background: none;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+    margin-left: auto;
+}
+.azyjsp{
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    
+}
+.bouton{
+    display: flex;
+    justify-content: center;
+}
+.djs{
+    margin-left: auto;
 }

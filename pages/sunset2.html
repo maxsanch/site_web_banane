@@ -27,65 +27,74 @@
         <div class="centrer">
             <form action="#">
                 <div class="nom">
-                    <div class="infos">
+                    <div class="info">
                         Nom
                     </div>
                     <div class="infos">
-                        <input name="Nom" type="text" placeholder="entrez votre nom" required>
+                        <input name="Nom" type="text" placeholder="entrez votre nom" required class="jsp">
                     </div>
                 </div>
                 <div class="nom">
-                    <div class="infos">
+                    <div class="info">
                         Prénom
                     </div>
                     <div class="infos">
-                        <input name="Prénom" type="text" placeholder="entrez votre Prénom" required>
+                        <input name="Prénom" type="text" placeholder="entrez votre Prénom" required class="jsp">
                     </div>
                 </div>
                 <div class="nom">
-                    <div class="infos">
+                    <div class="info">
                         Date de naissance
                     </div>
                     <div class="infos">
-                        <input type="date" name="anniversaire" required>
+                        <input type="date" name="anniversaire" required class="jsp">
                     </div>
-                    <hr>
-                    <div class="nom">
-                        <div class="infos">
-                            d'ou venez vous?
-                        </div>
-                        <div class="infos">
-                            <div class="azyjsp">
-                                <div class="ouais">France</div><input type="radio" name="pays" required>
-                            </div>
-                            <div class="azyjsp">
-                                <div class="ouais">Belgique</div><input type="radio" name="pays" required>
-                            </div>
-                            <div class="azyjsp">
-                               <div class="ouais">lune</div> <input type="radio" name="pays" required>
-                            </div>
-                        </div>
+                </div>
+                <div class="nom">
+                    <div class="info">
+                        votre mail
                     </div>
-                    <hr>
-                    <div class="nom">
-                        <div class="infos">
-                            d'ou venez vous?
+                    <div class="infos">
+                        <input name="mail" type="email" placeholder="rentrez votre mail" required class="jsp">
+                    </div>
+                </div>
+                <hr>
+                <div class="autre">
+                    <div class="infos">
+                        d'ou venez vous?
+                    </div>
+                    <div class="infos">
+                        <div class="azyjsp">
+                            <div class="ouais">France</div><input type="radio" name="pays" required class="djs">
                         </div>
-                        <div class="infos">
-                            <div class="azyjsp">
-                                <div class="ouais">chien</div><input type="checkbox" name="pets">
-                            </div>
-                            <div class="azyjsp">
-                                <div class="ouais">chat</div><input type="checkbox" name="pets">
-                            </div>
-                            <div class="azyjsp">
-                               <div class="ouais">dragon</div> <input type="checkbox" name="pets">
-                            </div>
+                        <div class="azyjsp">
+                            <div class="ouais">Belgique</div><input type="radio" name="pays" required class="djs">
+                        </div>
+                        <div class="azyjsp">
+                            <div class="ouais">lune</div> <input type="radio" name="pays" required class="djs">
                         </div>
                     </div>
-                    <div class="bouton">
-                        <input class="send" type="submit" value="Envoyer">
+                </div>
+                <hr>
+                <div class="autre">
+                    <div class="infos">
+                        d'ou venez vous?
                     </div>
+                    <div class="infos">
+                        <div class="azyjsp">
+                            <div class="ouais">chien</div><input type="checkbox" name="pets" class="djs">
+                        </div>
+                        <div class="azyjsp">
+                            <div class="ouais">chat</div><input type="checkbox" name="pets" class="djs" >
+                        </div>
+                        <div class="azyjsp">
+                            <div class="ouais">dragon</div> <input type="checkbox" name="pets" class="djs">
+                        </div>
+                    </div>
+                </div>
+                <div class="bouton">
+                    <input class="send" type="submit" value="Envoyer">
+                </div>
             </form>
         </div>
     </div>
